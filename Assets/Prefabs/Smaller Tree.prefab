@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1117277509339064020}
   - component: {fileID: 4941746191109492540}
   m_Layer: 0
-  m_Name: Tree
+  m_Name: Smaller Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
