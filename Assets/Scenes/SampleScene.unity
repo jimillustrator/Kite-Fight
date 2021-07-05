@@ -786,10 +786,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 166859364}
     m_Modifications:
-    - target: {fileID: 919132148393444433, guid: 9e9e73864f2e143fbbc7cb0214da0b31, type: 3}
-      propertyPath: yRange
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 2852818089197448651, guid: 9e9e73864f2e143fbbc7cb0214da0b31, type: 3}
       propertyPath: m_Name
       value: diamond.kite.unity
@@ -816,15 +812,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3232720606052775793, guid: 9e9e73864f2e143fbbc7cb0214da0b31, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3232720606052775793, guid: 9e9e73864f2e143fbbc7cb0214da0b31, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3232720606052775793, guid: 9e9e73864f2e143fbbc7cb0214da0b31, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3232720606052775793, guid: 9e9e73864f2e143fbbc7cb0214da0b31, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
