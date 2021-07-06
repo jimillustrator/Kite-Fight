@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] float controlSpeed = 30f;
-    [SerializeField] float xRange = 10f;
-    [SerializeField] float yRange = 6f;
+    [SerializeField] float controlSpeed = 20f;
+    [SerializeField] float xRange = 14f;
+    [SerializeField] float yRange = 8f;
 
     [SerializeField] float positionPitchFactor = -2f;
-    [SerializeField] float controlPitchFactor = -20f;
+    [SerializeField] float controlPitchFactor = -15f;
     [SerializeField] float positionYawFactor = 2f;
-    [SerializeField] float controlRollFactor = -20f;
+    [SerializeField] float controlRollFactor = -15f;
 
     float xThrow, yThrow;
 
