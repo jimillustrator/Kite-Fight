@@ -378,9 +378,10 @@ MonoBehaviour:
   controlSpeed: 30
   xRange: 15
   yRange: 10
+  lasers: []
   positionPitchFactor: -2
-  controlPitchFactor: -20
   positionYawFactor: 2
+  controlPitchFactor: -20
   controlRollFactor: -20
 --- !u!1 &4748759353712860222
 GameObject:
