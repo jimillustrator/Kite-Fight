@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 420865964307381893}
   - component: {fileID: 2728952640341189110}
   m_Layer: 0
-  m_Name: Enemy ExplosionVFX
+  m_Name: EnemyExplosionVFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

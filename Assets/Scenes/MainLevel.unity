@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: a35c685b61f5f407c923c5b6ce0f558e, type: 2}
+  m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -434,9 +434,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 420865964307381894, guid: 2e880de56646044269aec9aae7397939, type: 3}
+  hitVFX: {fileID: 420865964307381894, guid: 30dfb92abb4904210ae0924339696afd, type: 3}
   parent: {fileID: 134959739}
   scorePerHit: 15
-  hitPoints: 0
+  hitPoints: 4
 --- !u!1 &1499194846
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,6 +472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathVFX: {fileID: 420865964307381894, guid: 2e880de56646044269aec9aae7397939, type: 3}
+  hitVFX: {fileID: 420865964307381894, guid: 30dfb92abb4904210ae0924339696afd, type: 3}
   parent: {fileID: 134959739}
   scorePerHit: 15
   hitPoints: 4
@@ -811,15 +813,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 210409714874929426, guid: 50d52446acdee43b99ebc6c077db0fb7, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 2.7540548e-38
+      value: 13427.711
       objectReference: {fileID: 0}
     - target: {fileID: 210409714874929426, guid: 50d52446acdee43b99ebc6c077db0fb7, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: -5.676511e+28
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 210409714874929426, guid: 50d52446acdee43b99ebc6c077db0fb7, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 4.5915e-41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 210409714874929427, guid: 50d52446acdee43b99ebc6c077db0fb7, type: 3}
       propertyPath: m_RootOrder
