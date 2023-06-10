@@ -1115,6 +1115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnAtRuntime
       objectReference: {fileID: 0}
+    - target: {fileID: 4827081246445371138, guid: 5df7e144502eb4ad59f468b54bf7b7c2, type: 3}
+      propertyPath: m_TagString
+      value: SpawnAtRuntime
+      objectReference: {fileID: 0}
     - target: {fileID: 4827081246445371139, guid: 5df7e144502eb4ad59f468b54bf7b7c2, type: 3}
       propertyPath: m_RootOrder
       value: 9
