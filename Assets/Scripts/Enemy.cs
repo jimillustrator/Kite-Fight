@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject hitVFX;
     [SerializeField] Transform parent;
     [SerializeField] int scorePerHit = 15;
-    [SerializeField] int hitPoints = 4; //number of times the enemy needs to be hit
+    [SerializeField] int hitPoints = 1; //number of times the enemy needs to be hit
 
     ScoreBoard scoreBoard;
 
