@@ -363,6 +363,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2877570142478471761, guid: c60520d6df54949b9b917066c5928ea5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9ff4f15a7a00f4cf8a17e9e903396243, type: 2}
+    - target: {fileID: 2978333551045929968, guid: c60520d6df54949b9b917066c5928ea5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 651b33927065842288642adb38ff4eaa, type: 2}
     - target: {fileID: 3582051611376825514, guid: c60520d6df54949b9b917066c5928ea5, type: 3}
       propertyPath: m_Name
       value: jellyfish.live.2023
