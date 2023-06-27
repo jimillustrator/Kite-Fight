@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7705449638292832642}
   - component: {fileID: 6719540018942332455}
   - component: {fileID: 8837308500133853933}
-  - component: {fileID: 7882980379100325482}
   - component: {fileID: 7882980379100325483}
   - component: {fileID: 5657708121798874946}
+  - component: {fileID: 9005327146330052889}
   m_Layer: 0
   m_Name: jellyfish.live
   m_TagString: Untagged
@@ -84,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7882980379100325482
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7035908163801652024}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2563115114898046011, guid: 2ecf6c46d003c48989b5d5272c437fff, type: 3}
 --- !u!114 &7882980379100325483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,10 +96,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374de28bbb25f4094a947a09c6942989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 420865964307381894, guid: 2e880de56646044269aec9aae7397939, type: 3}
+  deathFX: {fileID: 420865964307381894, guid: 2e880de56646044269aec9aae7397939, type: 3}
   hitVFX: {fileID: 420865964307381894, guid: 30dfb92abb4904210ae0924339696afd, type: 3}
-  scorePerHit: 30
-  hitPoints: 10
+  scorePerHit: 10
+  hitPoints: 30
 --- !u!95 &5657708121798874946
 Animator:
   serializedVersion: 3
@@ -133,3 +119,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &9005327146330052889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7035908163801652024}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 24.959858, y: 36.21484, z: 24.959858}
+  m_Center: {x: 0, y: 18.10742, z: -0.0000009536743}

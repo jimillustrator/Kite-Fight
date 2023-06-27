@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8627194617869477517}
   - component: {fileID: 4617922854393653544}
   - component: {fileID: 7490294421797887458}
-  - component: {fileID: 5450199469291033508}
   - component: {fileID: 6224741977682218454}
+  - component: {fileID: 3774333460899395480}
   m_Layer: 0
   m_Name: mosquito.live
   m_TagString: Untagged
@@ -83,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5450199469291033508
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9003297531781053495}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6559587986390739586, guid: 8bc80ea97e84d4211bbae952e5da6803, type: 3}
 --- !u!114 &6224741977682218454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,7 +95,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 374de28bbb25f4094a947a09c6942989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 420865964307381894, guid: 2e880de56646044269aec9aae7397939, type: 3}
+  deathFX: {fileID: 420865964307381894, guid: 2e880de56646044269aec9aae7397939, type: 3}
   hitVFX: {fileID: 420865964307381894, guid: 30dfb92abb4904210ae0924339696afd, type: 3}
   scorePerHit: 15
-  hitPoints: 4
+  hitPoints: 10
+--- !u!65 &3774333460899395480
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9003297531781053495}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.038348, y: 4.5187616, z: 13.37747}
+  m_Center: {x: 0, y: 2.2832732, z: 2.3510733}
