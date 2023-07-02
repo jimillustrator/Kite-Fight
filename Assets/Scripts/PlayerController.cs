@@ -25,7 +25,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float controlPitchFactor = -15f;
     [SerializeField] float controlRollFactor = -15f;
 
+    [Header("Laser SFX")]
+    [SerializeField] AudioClip laser;
+
+    AudioSource audioSource;
+
     float xThrow, yThrow;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     void Update()
     {
@@ -68,6 +78,7 @@ public class PlayerController : MonoBehaviour
         if(Input.GetButton("Fire1"))
             {
             SetLasersActive(true);
+            audioSource.PlayOneShot(laser);
         }
         else
         {
