@@ -1394,6 +1394,10 @@ PrefabInstance:
       propertyPath: explosionFX
       value: 
       objectReference: {fileID: 697564948}
+    - target: {fileID: 1640158354, guid: 062e763e8e8d54957afef9abdf405d61, type: 3}
+      propertyPath: explosionSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: b6e40327d11574da0ae019389ec703f8, type: 3}
     - target: {fileID: 4802136359329686475, guid: 062e763e8e8d54957afef9abdf405d61, type: 3}
       propertyPath: m_Name
       value: PlayerRig

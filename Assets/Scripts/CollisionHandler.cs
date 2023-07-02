@@ -8,7 +8,15 @@ public class CollisionHandler : MonoBehaviour
 {
     [SerializeField] float loadDelay = 1f;
     [SerializeField] ParticleSystem crashVFX;
+    [SerializeField] AudioClip explosionSFX;
     [SerializeField] GameObject[] fighterParts;
+
+    AudioSource audioSource;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -19,6 +27,8 @@ public class CollisionHandler : MonoBehaviour
     {
         TurnOffParts();
         crashVFX.Play();
+        audioSource.Stop();
+        audioSource.PlayOneShot(explosionSFX);
         GetComponent<PlayerController>().enabled = false;
         GetComponent<MeshCollider>().enabled = false;
         Invoke("ReloadLevel", loadDelay);
