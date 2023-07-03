@@ -27,7 +27,6 @@ public class CollisionHandler : MonoBehaviour
     {
         TurnOffParts();
         crashVFX.Play();
-        audioSource.Stop();
         audioSource.PlayOneShot(explosionSFX);
         GetComponent<PlayerController>().enabled = false;
         GetComponent<MeshCollider>().enabled = false;
