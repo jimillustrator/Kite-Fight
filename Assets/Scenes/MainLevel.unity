@@ -1723,5 +1723,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: launchpad
       objectReference: {fileID: 0}
+    - target: {fileID: 3797344727342646453, guid: 210535e102d9245fca23e141f6dd47d7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fd76cfcd9b624781af9559e7ce1783b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 210535e102d9245fca23e141f6dd47d7, type: 3}
