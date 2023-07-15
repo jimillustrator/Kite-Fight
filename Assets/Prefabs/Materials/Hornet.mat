@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bridge
+  m_Name: Hornet
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 2
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: e9ed8995ffcdc45c99dccba311dbd4d5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2bdd63a60f2f84d868f85bae3db0ed14, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -36,15 +36,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 645f013d3b8ee47afa42d0ff8bea3bba, type: 3}
+        m_Texture: {fileID: 2800000, guid: ccfa9236107be49d1901f8b80f3de216, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 90ea1b1701a634faf9ea9804c0a49fa8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 172f08c1380e646428b921961099c0fc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 6a41d6106167c4815969a51a5639f2bd, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5f7ccd3ec282c46c2a3ececa8d3b116e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
