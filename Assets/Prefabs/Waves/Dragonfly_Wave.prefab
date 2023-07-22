@@ -30,7 +30,7 @@ GameObject:
   - component: {fileID: 8595579932914856321}
   - component: {fileID: 8595579932914856322}
   m_Layer: 0
-  m_Name: Wave 4
+  m_Name: Dragonfly_Wave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
