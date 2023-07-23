@@ -20,7 +20,17 @@ public class CollisionHandler : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        StartCrashSequence();
+        switch(other.gameObject.tag)
+        {
+            case "Finish":
+                Debug.Log("The game is over and you didn't screw it up");
+                GetComponent<PlayerController>().enabled = false;
+                break;
+            default:
+                StartCrashSequence();
+                break;
+        }
+        
     }
 
     void StartCrashSequence()
